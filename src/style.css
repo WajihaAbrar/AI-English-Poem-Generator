@@ -3,4 +3,69 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Afacad", sans-serif;
+  background-color: #ec8f5e;
+}
+a {
+  color: #191d88;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 2;
+  color: #191d88;
+}
+form {
+  background-color: #f3b664;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container {
+  max-width: 650px;
+  margin: 100px auto;
+}
+.poem-title {
+  padding: 16px;
+  border: 1px solid grey;
+  border-radius: 50px;
+  width: 75%;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: whitesmoke;
+  color: #191d88;
+}
+.button {
+  width: 120px;
+  padding: 10px 20px;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 8px;
+  background-color: #191d88;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+}
+
+.poem {
+  background-color: #f3b664;
+  color: #191d88;
+  font-size: 16px;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid #191d88;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+footer {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 30px;
 }
