@@ -3,14 +3,15 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Afacad", sans-serif;
-  background-color: #ec8f5e;
+  /* background-color: #ec8f5e; */
+  background-color: #ffc47e;
 }
 a {
   color: #191d88;
 }
 
 header {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 h1 {
@@ -30,10 +31,13 @@ form {
 }
 .container {
   max-width: 650px;
-  margin: 100px auto;
+  margin: 70px auto;
+}
+.poem strong {
+  color: #191d88;
 }
 .poem-title {
-  padding: 16px;
+  padding: 15px;
   border: 1px solid grey;
   border-radius: 50px;
   width: 75%;
@@ -57,11 +61,16 @@ form {
 .poem {
   background-color: #f3b664;
   color: #191d88;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 500;
   padding: 20px;
-  line-height: 2;
+  line-height: 1.5;
   border-left: 3px solid #191d88;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.poem strong {
+  color: #191d88;
 }
 
 footer {
