@@ -25,14 +25,26 @@ h1 {
   color: #af2655;
 }
 form {
+  display: flex;
+}
+.form-container {
   background-color: #ffb84c;
   background-color: #860a35;
   background-color: #ff8f8f;
-  padding: 30px;
+  padding: 20px 25px;
   margin-bottom: 30px;
   border-radius: 10px;
-  display: flex;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.hint {
+  margin-top: 5px;
+  line-height: 1.5;
+  font-size: 14px;
+  font-style: italic;
+  opacity: 0.7;
+}
+.hidden {
+  display: none;
 }
 .container {
   max-width: 650px;
@@ -46,7 +58,7 @@ form {
   border: 1px solid grey;
   border-radius: 50px;
   width: 75%;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 20px;
   background-color: whitesmoke;
   color: #191d88;
@@ -60,8 +72,8 @@ form {
   margin-left: 8px;
   background-color: #191d88;
   background-color: #af2655;
-  font-weight: 700;
-  color: #186f65;
+  font-weight: 500;
+  color: #fff;
   border: none;
   border-radius: 50px;
 }
@@ -89,4 +101,18 @@ footer {
   text-align: center;
   font-size: 16px;
   margin-top: 30px;
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
