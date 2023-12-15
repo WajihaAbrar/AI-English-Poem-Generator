@@ -4,10 +4,12 @@ body {
   box-sizing: border-box;
   font-family: "Afacad", sans-serif;
   /* background-color: #ec8f5e; */
-  background-color: #ffc47e;
+  background-color: #f3b664;
+  background-color: #af2655;
+  background-color: #ffc5c5;
 }
 a {
-  color: #191d88;
+  color: #186f65;
 }
 
 header {
@@ -20,9 +22,12 @@ h1 {
   font-weight: 800;
   line-height: 2;
   color: #191d88;
+  color: #af2655;
 }
 form {
-  background-color: #f3b664;
+  background-color: #ffb84c;
+  background-color: #860a35;
+  background-color: #ff8f8f;
   padding: 30px;
   margin-bottom: 30px;
   border-radius: 10px;
@@ -45,6 +50,7 @@ form {
   line-height: 20px;
   background-color: whitesmoke;
   color: #191d88;
+  color: #af2655;
 }
 .button {
   width: 120px;
@@ -53,24 +59,30 @@ form {
   line-height: 20px;
   margin-left: 8px;
   background-color: #191d88;
-  color: #fff;
+  background-color: #af2655;
+  font-weight: 700;
+  color: #186f65;
   border: none;
   border-radius: 50px;
 }
 
 .poem {
-  background-color: #f3b664;
+  background-color: #ffb84c;
+  background-color: #860a35;
+  background-color: #ff8f8f;
   color: #191d88;
+  color: #af2655;
   font-size: 20px;
   font-weight: 500;
   padding: 20px;
   line-height: 1.5;
-  border-left: 3px solid #191d88;
+  border-left: 3px solid #af2655;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .poem strong {
   color: #191d88;
+  color: #186f65;
 }
 
 footer {
