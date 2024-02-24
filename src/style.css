@@ -3,7 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Afacad", sans-serif;
-  background-color: lavenderblush;
+  background-color: lavender;
 }
 a {
   color: #191d88;
@@ -105,5 +105,29 @@ footer {
 @-webkit-keyframes blink-animation {
   to {
     visibility: hidden;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 30px;
+  }
+  .container {
+    max-width: 350px;
+  }
+  .poem-title {
+    padding: 8px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .button {
+    width: 100px;
+    padding: 8px 15px;
+  }
+  .form-container {
+    padding: 15px 18px;
+  }
+  .poem {
+    padding: 15px;
   }
 }
